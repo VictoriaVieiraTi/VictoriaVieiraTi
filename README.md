@@ -10,4 +10,6 @@
 - HTML
 - CSS
 - Git/GitHub
-  MySQL
+- MySQL
+- Java Script
+- 
