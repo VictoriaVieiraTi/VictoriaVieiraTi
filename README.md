@@ -2,7 +2,7 @@
 
 💻 Estudante de Tecnologia da Informação  
 🔧 Curso de manutenção de computadores  
-📚 Aprendendo Python, HTML, CSS e Git  
+📚 Aprendendo Python, HTML, CSS e Java Script  
 🚀 Em busca da primeira oportunidade na área
 
 ## Tecnologias
