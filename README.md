@@ -9,7 +9,7 @@
 - 💻 **Foco:** Tecnologia da Informação & Desenvolvimento Web
 - 🔧 **Formação em Hadwares:** Manutenção de Computadores
 - 📚 **Estudando no momento:** Python, HTML, CSS, JavaScript, Banco de Dados e Portugol
-- 🚀 **Objetivo:** Em busca da primeira oportunidade profissional na área de TI
+  
 
 ---
 
