@@ -7,7 +7,7 @@
 ### 💻 Sobre mim
 - 🎓 **Formação:** Cursando Técnico em Desenvolvimento de Sistemas
 - 💻 **Foco:** Tecnologia da Informação & Desenvolvimento Web
-- 🔧 **Formação em Hadwares:** Manutenção de Computadores
+- 🔧 **Formação em Hardwares:** Manutenção de Computadores
 - 📚 **Estudando no momento:** Python, HTML, CSS, JavaScript, Banco de Dados e Portugol,C#
   
 
