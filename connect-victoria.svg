@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="pulse" x1="0" x2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset=".5" stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="250" rx="14" fill="#0c0714"/>
+  <text x="450" y="42" text-anchor="middle" fill="#E9D5FF" font-family="monospace" font-size="13" letter-spacing="3">LET'S CONNECT</text>
+
+  <g transform="translate(180 75)">
+    <rect width="230" height="62" rx="10" fill="#14101d" stroke="#A78BFA" stroke-width="1.5"/>
+    <circle cx="35" cy="31" r="18" fill="#A78BFA" opacity=".15"/>
+    <text x="35" y="38" text-anchor="middle" fill="#A78BFA" font-family="Arial" font-size="22" font-weight="bold">GH</text>
+    <text x="68" y="27" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">GITHUB</text>
+    <text x="68" y="45" fill="#C084FC" font-family="monospace" font-size="11">VictoriaVieiraTi</text>
+    <rect x="0" y="0" width="230" height="62" rx="10" fill="none" stroke="#C084FC" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;.8;0" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(490 75)">
+    <rect width="230" height="62" rx="10" fill="#14101d" stroke="#A78BFA" stroke-width="1.5"/>
+    <circle cx="35" cy="31" r="18" fill="#A78BFA" opacity=".15"/>
+    <text x="35" y="38" text-anchor="middle" fill="#A78BFA" font-family="Arial" font-size="20" font-weight="bold">in</text>
+    <text x="68" y="27" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">LINKEDIN</text>
+    <text x="68" y="45" fill="#C084FC" font-family="monospace" font-size="11">Victoria Vieira</text>
+    <rect x="0" y="0" width="230" height="62" rx="10" fill="none" stroke="#C084FC" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;.8;0" dur="2.2s" begin=".7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g>
+    <rect x="335" y="171" width="230" height="38" rx="19" fill="url(#pulse)" filter="url(#glow)">
+      <animate attributeName="opacity" values=".75;1;.75" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="450" y="196" text-anchor="middle" fill="#0c0714" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="2">CONNECT // ONLINE</text>
+  </g>
+
+  <circle cx="315" cy="190" r="4" fill="#A78BFA">
+    <animate attributeName="cx" values="315;325;315" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="585" cy="190" r="4" fill="#C084FC">
+    <animate attributeName="cx" values="585;575;585" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
