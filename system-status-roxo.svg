@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono{font-family:monospace;letter-spacing:1px}
+      .title{font-size:22px;font-weight:700;fill:#A78BFA}
+      .label{font-size:14px;font-weight:700;fill:#E9D5FF}
+      .small{font-size:12px;fill:#D8B4FE}
+      .terminal{font-size:13px;fill:#C084FC}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="328" rx="16" fill="#0c0714" stroke="#A78BFA" stroke-width="2"/>
+  <line x1="34" y1="62" x2="866" y2="62" stroke="#3B245A"/>
+
+  <text x="36" y="38" class="mono title">VICTORIA SYSTEM // DEVELOPMENT STATUS</text>
+  <text x="760" y="38" class="mono small">ONLINE</text>
+  <circle cx="834" cy="33" r="6" fill="#A78BFA">
+    <animate attributeName="opacity" values="1;.3;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="36" y="99" class="mono label">FULL STACK</text>
+  <rect x="195" y="84" width="515" height="16" rx="8" fill="#191522"/>
+  <rect x="195" y="84" width="0" height="16" rx="8" fill="#A78BFA" filter="url(#glow)">
+    <animate attributeName="width" from="0" to="386" dur="1.8s" fill="freeze"/>
+  </rect>
+
+  <text x="36" y="146" class="mono label">AI &amp; AUTOMATION</text>
+  <rect x="195" y="131" width="515" height="16" rx="8" fill="#191522"/>
+  <rect x="195" y="131" width="0" height="16" rx="8" fill="#C084FC" filter="url(#glow)">
+    <animate attributeName="width" from="0" to="309" dur="1.8s" begin=".35s" fill="freeze"/>
+  </rect>
+
+  <text x="36" y="193" class="mono label">ROTA DEV</text>
+  <rect x="195" y="178" width="515" height="16" rx="8" fill="#191522"/>
+  <rect x="195" y="178" width="0" height="16" rx="8" fill="#A78BFA" filter="url(#glow)">
+    <animate attributeName="width" from="0" to="422" dur="1.8s" begin=".7s" fill="freeze"/>
+  </rect>
+
+  <text x="36" y="238" class="mono terminal">&gt; syncing development modules...</text>
+  <text x="36" y="267" class="mono small">&gt; C#  •  HTML  •  CSS  •  JavaScript  •  SQL Server</text>
+  <text x="36" y="294" class="mono small">&gt; ASP.NET MVC  •  WinForms  •  Python  •  GitHub</text>
+  <text x="36" y="318" class="mono terminal">&gt; BUILD  -  CREATE  -  LEARN  -  EVOLVE_</text>
+</svg>
